@@ -10,7 +10,6 @@ target 'JosephCodingBrandi' do
   pod 'AlamofireObjectMapper'
   pod 'SwiftyJSON'
   pod 'PKHUD'
-  pod 'CCBottomRefreshControl'
 
   target 'JosephCodingBrandiTests' do
     inherit! :search_paths
