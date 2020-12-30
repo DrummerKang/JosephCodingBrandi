@@ -1,0 +1,6 @@
+framework module Pods_JosephCodingBrandi {
+  umbrella header "Pods-JosephCodingBrandi-umbrella.h"
+
+  export *
+  module * { export * }
+}
