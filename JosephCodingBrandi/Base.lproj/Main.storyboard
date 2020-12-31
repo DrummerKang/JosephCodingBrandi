@@ -118,11 +118,12 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf5-g8-RLo">
-                                        <rect key="frame" x="10" y="0.0" width="50" height="40"/>
+                                        <rect key="frame" x="10" y="5" width="30" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="oMB-4t-PAx"/>
+                                            <constraint firstAttribute="height" constant="30" id="Ao1-Dt-SdK"/>
+                                            <constraint firstAttribute="width" constant="30" id="oMB-4t-PAx"/>
                                         </constraints>
-                                        <state key="normal" title="이전">
+                                        <state key="normal" image="back_btn">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -134,8 +135,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2kw-Yb-TM2"/>
                                     <constraint firstItem="Cf5-g8-RLo" firstAttribute="leading" secondItem="ebk-p0-U0i" secondAttribute="leading" constant="10" id="VNl-0j-gDH"/>
-                                    <constraint firstAttribute="bottom" secondItem="Cf5-g8-RLo" secondAttribute="bottom" id="dcn-Qs-gNj"/>
-                                    <constraint firstItem="Cf5-g8-RLo" firstAttribute="top" secondItem="ebk-p0-U0i" secondAttribute="top" id="zpO-2v-UU5"/>
+                                    <constraint firstItem="Cf5-g8-RLo" firstAttribute="centerY" secondItem="ebk-p0-U0i" secondAttribute="centerY" id="Xgu-1y-lyv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -172,6 +172,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back_btn" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
